@@ -20,8 +20,11 @@
   "homepage": "https://github.com/NikitaNikolski/driving#readme",
   "dependencies": {
     "@types/react": "^16.0.2",
+    "@types/react-bootstrap": "0.0.52",
     "@types/react-dom": "^15.5.3",
+    "bootstrap": "^3.3.7",
     "react": "^15.6.1",
+    "react-bootstrap": "^0.31.2",
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
