@@ -1,0 +1,34 @@
+{
+  "name": "driving",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaNikolski/driving.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikitaNikolski/driving/issues"
+  },
+  "homepage": "https://github.com/NikitaNikolski/driving#readme",
+  "dependencies": {
+    "@types/react": "^16.0.2",
+    "@types/react-dom": "^15.5.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.2.3",
+    "source-map-loader": "^0.2.1",
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
