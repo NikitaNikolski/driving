@@ -5,15 +5,10 @@ import { Button } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import { Grid } from "react-bootstrap";
 import { Row } from "react-bootstrap";
-var News = React.createClass({
 
-    render: function() {
-        var news= [];
-      
-        return (
-            <div className="news">
+          const temp=   <div className="news">
                 <Col xs={6} md={4}>
-               <Thumbnail src="/assets/thumbnaildiv.png" alt="242x200">
+               <Thumbnail src="/src/images/document-edit-flat.png" alt="242x200">
                     <h3>Thumbnail label</h3>
                     <p>Description</p>
                     <p>
@@ -23,24 +18,21 @@ var News = React.createClass({
                     </Thumbnail>
                     </Col>
             </div>
-        );
-    }
-});
- 
+
   var Menu = React.createClass({
 
     render: function() {
         var news= [];
          for(var i =0 ; i<8; i++){
-            news.push(News);
+            news.push(temp);
         }
       
         return (
-             <Grid>
-    <Row>
-        {news}
-            </Row>
-  </Grid>
+            <Grid>
+                <Row>
+                    {news}
+                </Row>
+            </Grid>
             
         );
     }
@@ -50,7 +42,7 @@ export default class HomePage extends React.Component {
 
     render() {
         return <main>
-            <div className="main-page-container"><News/></div>
+            <div className="main-page-container"><Menu/></div>
         </main>
     }
 }
