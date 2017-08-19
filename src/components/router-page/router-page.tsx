@@ -7,7 +7,9 @@ export default class RouterPage extends React.Component {
     render() {
         return <main>
                 <Switch>
-                    <Route exact path='/mainPage' component={MainPage}/>
+                    <Route exact path='/' component={ MainPage }/>
+                    <Route exact path='/signIn' component={MainPage}/>
+                    <Route exact path='/signUp' component={MainPage}/>
                     <Route exact path='/homePage' component={HomePage}/>          
                 </Switch>
         </main>
