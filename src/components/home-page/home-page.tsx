@@ -1,8 +1,6 @@
 import * as React from "react";
 import MenuItem from "../menu-item";
-import { Grid } from "react-Bootstrap";
-import { Col } from "react-Bootstrap";
-import { Row } from "react-Bootstrap";
+import { Grid, Col, Row } from "react-Bootstrap";
   /*  const temp = <div className="news">
                 <Col xs={6} md={4}>
                <Thumbnail src="/src/images/my-invoices.svg" alt="242x200">
