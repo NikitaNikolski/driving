@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10px;
+    
+    background: #1777b5;
+    color: #fff;
+}
+
+    header .logo {
+        background-image: url(../images/logo-dark.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        width: 160px;
+        height: 40px;
+    }
+
+    header .auth {
+        font-size: 16px;
+    }
+
+        .auth .signIn {
+            margin-right: 10px;
+        }

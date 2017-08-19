@@ -3,8 +3,11 @@ import { Link } from "react-router-dom";
 export default class Header extends React.Component {
     render() {
         return <header>
-            <Link to='/homePage'>homePage</Link><br/><br/>
-            <Link to='/mainPage'>mainPage</Link><br/><br/>
+            <div className="logo"></div>
+            <div className="auth">
+                <span className="signIn">Sign In</span>
+                <span className="signUp">Sign Up</span>
+            </div>
         </header>
     }
 }
