@@ -32,19 +32,11 @@
     "@types/react-router": "^4.0.15",
     "awesome-typescript-loader": "^3.2.3",
     "css-loader": "^0.28.5",
-<<<<<<< HEAD
     "extract-text-webpack-plugin": "^3.0.0",
     "less": "^2.7.2",
     "less-loader": "^4.0.5",
     "source-map-loader": "^0.2.1",
     "style-loader": "^0.18.2",
-=======
-    "eslint": "^4.4.1",
-    "extract-text-webpack-plugin": "^3.0.0",
-    "source-map-loader": "^0.2.1",
-    "style-loader": "^0.18.2",
-    "tslint": "^5.6.0",
->>>>>>> c934949a06f3c0af002bc7e9702bf5fec9b32d3f
     "typescript": "^2.4.2",
     "typescript-eslint-parser": "^5.0.1",
     "typings-for-css-modules-loader": "^1.5.0",
