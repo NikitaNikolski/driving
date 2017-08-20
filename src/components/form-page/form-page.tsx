@@ -5,6 +5,7 @@ import { Button } from 'react-bootstrap';
 export default class FormPage extends React.Component {
 
     componentDidMount() {
+        alert();
         let name = ReactDOM.findDOMNode(this.refs.name);
         name.focus();
     }
@@ -13,12 +14,12 @@ export default class FormPage extends React.Component {
     }
     render() {
         return <div className="form-container">
-            <h1>Mijn account</h1>
+            <h1>My account</h1>
             <h1 className="only-mobile-version">This application is only available through the phone</h1>
             <form className="driving-form">
-                <h2 className="sub-title">Persoonlijke gegevens</h2>
+                <h2 className="sub-title">Personal information</h2>
                 <label className="input-block">
-                    <span className="_label">Gebruikersnaam</span>
+                    <span className="_label">Username</span>
                     <input
                         type='text'
                         className='_field'
@@ -38,7 +39,7 @@ export default class FormPage extends React.Component {
                     />
                 </label>
                 <label className="input-block">
-                    <span className="_label">Examencredits</span>
+                    <span className="_label">Exam credits</span>
                     <span>0</span>
 
                 </label>
@@ -47,18 +48,18 @@ export default class FormPage extends React.Component {
                     <span className="_label _app-hidden"></span>
                     <input type="checkbox" className="_input" defaultChecked={true} ref="checked1"/>
                     <span className="_checkbox"></span>
-                    Nieuwsbrief toegestaan
+                    Newsletter allowed
                 </label>
 
                 <label className="input-block" >
                     <span className="_label _app-hidden"></span>
                     <input type="checkbox" className="_input" defaultChecked={false} ref="checked2"/>
                     <span className="_checkbox"></span>
-                    Theorie examen met extra tijd
+                    Theory exam with extra time
                 </label>
-                <h2 className="sub-title">Wachtwoord</h2>
+                <h2 className="sub-title">Password</h2>
                 <label className="input-block">
-                    <span className="_label">Huidig wachtwoord</span>
+                    <span className="_label">Current password</span>
                     <input
                         type='text'
                         className='_field'
@@ -69,7 +70,7 @@ export default class FormPage extends React.Component {
                     />
                 </label>
                 <label className="input-block">
-                    <span className="_label">Nieuw wachtwoord</span>
+                    <span className="_label">New password</span>
                     <input
                         type='text'
                         className='_field'
@@ -80,7 +81,7 @@ export default class FormPage extends React.Component {
                     />
                 </label>
                 <label className="input-block">
-                    <span className="_label">Bevestig nieuwe wachtwoord</span>
+                    <span className="_label">Confirm new password</span>
                     <input
                         type='text'
                         className='_field'
@@ -93,7 +94,7 @@ export default class FormPage extends React.Component {
                 <Button className="add-btn" bsStyle="primary" bsSize="large" block
                         onClick={this.onBtnClickHandler.bind(this)}
                         ref='alert_button'>
-                    Opslaan</Button>
+                    Save</Button>
             </form>
 
         </div>
