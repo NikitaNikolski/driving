@@ -30,9 +30,8 @@ body{
 ._btn{
     text-transform: uppercase;
     border-radius: 0;
-    height: 30px;
-    font-size: 12px;
-    padding: 0 1em 0 1em;
+    font-size: 16px;
+    padding: 10px;
     border-color: white;
 }
 .add-btn {

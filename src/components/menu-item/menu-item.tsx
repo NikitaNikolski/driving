@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Button, Image } from 'react-bootstrap';
 import { Link, Route } from "react-router-dom";
-import MyAccount from "../menu-item";
 
 interface IMenuItem {
     pictureUrl: string,
@@ -15,13 +14,13 @@ export default class MenuItem extends React.Component<IMenuItem> {
         const { pictureUrl, buttonText, urlPage } = this.props;
         
         return (
-            <div className = "container" >
+            <div className = "menu-item-container" >
                 <Image className = "picture" src = { pictureUrl } rounded />
 
                 <Link to={urlPage}>
-                <Button href={urlPage} className = "button" bsStyle = "success" width = "100%">
-                    { buttonText }
-                </Button>
+                    <Button href={urlPage} className = "button" bsStyle = "success" width = "100%">
+                        { buttonText }
+                    </Button>
                </Link>
             </div>
         )

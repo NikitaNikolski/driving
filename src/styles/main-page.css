@@ -1,0 +1,50 @@
+.main-page-container {
+    font-family: "Open Sans Light";
+    text-align: justify;
+
+    padding: 10px;
+}
+
+.menuItem {
+    width: 70%;
+    margin: 10px auto;
+}
+
+.main-page-container h1 {
+    margin-top: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.main-page-container h2 {
+    color: #0e78b6;
+    font-size: 20px;
+}
+
+.main-page-container p {
+    font-size: 24px;
+    margin: 50px 0;
+}
+
+.main-page-container .itheorie {
+    background: #2f90c9;
+    color: #fff;
+}
+
+.main-page-container .itheorie {
+    padding: 10px;
+    text-align: center;
+}
+
+.main-page-container .itheorie h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.main-page-container .itheorie button {
+    background: #f37020;
+    padding: 10px 15px;
+    font-size: 24px;
+    border: none;
+}
+

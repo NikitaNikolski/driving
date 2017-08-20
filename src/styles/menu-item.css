@@ -1,16 +1,21 @@
-.container {
+.menu-item-container {
     margin: 5px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
+}
+
+.menu-item-container a {
+    width: 100%;
 }
 
 .button {
-    width: 100px;
+    width: 100%;
 }
 
 .picture {
-    width: 100px;
-    border: 1px solid;
+    width: 100%;
+    border: 1px solid transparent;
 }
