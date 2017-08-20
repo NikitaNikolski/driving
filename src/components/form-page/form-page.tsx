@@ -7,7 +7,7 @@ export default class FormPage extends React.Component {
     componentDidMount() {
         alert();
         let name = ReactDOM.findDOMNode(this.refs.name);
-        name.focus();
+        // name.focus();
     }
     onBtnClickHandler(e: any){
         e.preventDefault();
