@@ -100,30 +100,30 @@ export default class HomePage extends React.Component {
                 <Row>
                     
                 <Col xs={6} md={4} >
-                    <MenuItem pictureUrl="/src/images/person-10.svg" buttonText="Rewiews"></MenuItem>
+                    <MenuItem pictureUrl="/src/images/person-10.svg" buttonText="Rewiews" urlPage="/myAccount"></MenuItem>
                 </Col>
                 
                 <Col xs={6} md={4}>
-                    <MenuItem pictureUrl="/src/images/shopping-cart.svg" buttonText="Upgrade"></MenuItem>
+                    <MenuItem pictureUrl="/src/images/shopping-cart.svg" buttonText="Upgrade" urlPage="/myAccount"></MenuItem>
                 </Col>
                 <Col xs={6} md={4}>
-                    <MenuItem pictureUrl="/src/images/person-9.svg" buttonText="Book theory"></MenuItem>
+                    <MenuItem pictureUrl="/src/images/person-9.svg" buttonText="Book theory" urlPage="/myAccount"></MenuItem>
                 </Col>
                 <Col xs={6} md={4}>
-                    <MenuItem pictureUrl="/src/images/snelslagen-korting.png" buttonText="Discount code"></MenuItem>
+                    <MenuItem pictureUrl="/src/images/snelslagen-korting.png" buttonText="Discount code" urlPage="/myAccount"></MenuItem>
                 </Col>
                 <Col xs={6} md={4}>
-                    <MenuItem pictureUrl="/src/images/my-drivingschool.svg" buttonText="My driving school"></MenuItem>
+                    <MenuItem pictureUrl="/src/images/my-drivingschool.svg" buttonText="My driving school" urlPage="/myAccount"></MenuItem>
                 </Col>
                 <Col xs={6} md={4}>
-                    <MenuItem pictureUrl="/src/images/document-edit-flat.png" buttonText="My account" urlPage="myAccount"></MenuItem>
+                    <MenuItem pictureUrl="/src/images/document-edit-flat.png" buttonText="My account" urlPage="/myAccount"></MenuItem>
                 </Col>
                 <Col xs={6} md={4}>
-                    <MenuItem pictureUrl="/src/images/my-invoices.svg" buttonText="My Invoicies"></MenuItem>
+                    <MenuItem pictureUrl="/src/images/my-invoices.svg" buttonText="My Invoicies" urlPage="/myAccount"></MenuItem>
                 </Col>
                 <Col xs={6} md={4}>
-                    <MenuItem pictureUrl="/src/images/power-button-sign.svg" buttonText="Log out"></MenuItem>
-                </Col>
+                    <MenuItem pictureUrl="/src/images/power-button-sign.svg" buttonText="Log out" urlPage="/myAccount"></MenuItem>
+                </Col> 
 
          
              </Row>
