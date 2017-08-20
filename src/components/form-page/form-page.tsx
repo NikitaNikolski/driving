@@ -11,6 +11,9 @@ export default class FormPage extends React.Component {
     onBtnClickHandler(e: any){
         e.preventDefault();
     }
+    onCheckRuleClick(e: any){
+
+    }
     render() {
         return <div className="form-container">
             <h1>Mijn account</h1>
@@ -22,11 +25,9 @@ export default class FormPage extends React.Component {
                     <input
                         type='text'
                         className='_field'
-                        defaultValue=''
+                        defaultValue='asdasdasd'
                         placeholder=''
-                        value = 'rebazrahim'
                         ref='name'
-                        
                     />
                 </label>
                 <label className="input-block">
@@ -34,9 +35,8 @@ export default class FormPage extends React.Component {
                     <input
                         type='text'
                         className='_field'
-                        defaultValue=''
                         placeholder=''
-                        value = 'rebazrahim11@hotmail.com'
+                        defaultValue = 'rebazrahim11@hotmail.com'
                         ref='eMail'
                     />
                 </label>
@@ -46,16 +46,16 @@ export default class FormPage extends React.Component {
 
                 </label>
 
-                <label className="input-block" defaultChecked={true}>
+                <label className="input-block">
                     <span className="_label _app-hidden"></span>
-                    <input type="checkbox" className="_input" value="true" ref="checked1"/>
+                    <input type="checkbox" className="_input" defaultChecked={true} ref="checked1"/>
                     <span className="_checkbox"></span>
                     Nieuwsbrief toegestaan
                 </label>
 
-                <label className="input-block" defaultChecked={false}>
+                <label className="input-block" >
                     <span className="_label _app-hidden"></span>
-                    <input type="checkbox" className="_input" value="true" ref="checked2"/>
+                    <input type="checkbox" className="_input" defaultChecked={false} ref="checked2"/>
                     <span className="_checkbox"></span>
                     Theorie examen met extra tijd
                 </label>
@@ -67,7 +67,6 @@ export default class FormPage extends React.Component {
                         className='_field'
                         defaultValue=''
                         placeholder=''
-                        value = ''
                         ref='oldPassword'
                         
                     />
@@ -79,7 +78,6 @@ export default class FormPage extends React.Component {
                         className='_field'
                         defaultValue=''
                         placeholder=''
-                        value = ''
                         ref='newPassword'
                         
                     />
@@ -91,7 +89,6 @@ export default class FormPage extends React.Component {
                         className='_field'
                         defaultValue=''
                         placeholder=''
-                        value = ''
                         ref='repeatNewPassword'
                     />
                 </label>

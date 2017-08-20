@@ -13,8 +13,8 @@
 .form-container {
     width: 100%;
     padding: 0 20px;
-    font-family: 'Open sans', 'Helvetica' ,'Arial';
     font: inherit;
+    font-family: 'Open Sans', arial;
     color: #6d6e70;
 }
 .driving-form{
