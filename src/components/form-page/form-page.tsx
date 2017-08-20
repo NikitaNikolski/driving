@@ -14,7 +14,8 @@ export default class FormPage extends React.Component {
     render() {
         return <div className="form-container">
             <h1>Mijn account</h1>
-            <form className='add cf'>
+            <h1 className="only-mobile-version">This application is only available through the phone</h1>
+            <form className="driving-form">
                 <h2 className="sub-title">Persoonlijke gegevens</h2>
                 <label className="input-block">
                     <span className="_label">Gebruikersnaam</span>

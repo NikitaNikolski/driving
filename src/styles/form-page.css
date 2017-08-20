@@ -17,6 +17,12 @@
     font: inherit;
     color: #6d6e70;
 }
+.driving-form{
+    display: none;
+}
+.only-mobile-version{
+    display: block;
+}
     .form-container h1{
         text-align: center;
         color: #0e78b6;
@@ -93,10 +99,16 @@
             font-weight: normal;
         }
 @media screen and (max-width: 600px){
-    .input-block ._label, ._field {
-        width: 100% !important;
+    .driving-form{
+        display: block;
     }
-    ._app-hidden {
-        display: none !important;
+    .only-mobile-version{
+        display: none;
     }
+        .input-block ._label, ._field {
+            width: 100% !important;
+        }
+        ._app-hidden {
+            display: none !important;
+        }
 }
