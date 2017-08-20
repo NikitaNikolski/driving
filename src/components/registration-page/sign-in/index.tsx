@@ -16,7 +16,7 @@ export default React.createClass({
             <input className="reg-fieldset" type="email" />
             <p >Password</p>
             <input className="reg-fieldset" type="password" />
-      
+
             <p><Link to='/homePage'><input type="submit" className = "reg-button" value="Log in"/></Link></p>
             <p><Link to='https://www.snelslagen.nl/app/#/inloggen/facebook'><input type="button" className = "reg-button" value="Sign in with Facebook"/></Link></p>
             <h4 style={{padding: '1em' }}>or</h4>          

@@ -18,7 +18,7 @@ export default React.createClass({
                 <p >Password</p>
                 <input className="reg-fieldset" type="password" />
 
-                <p><Link to='/signIn'><input type="submit" className = "reg-button" value="Register"/></Link></p>
+                <p><Link to='/homePage'><input type="submit" className = "reg-button" value="Register"/></Link></p>
 
                 <h4 style={{padding: '1em' }}>or</h4>          
 
