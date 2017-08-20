@@ -3,6 +3,6 @@ import * as React from "react";
 //import styles from "./header.css";
 export default class Header extends React.Component {
     render() {
-        return <header></header>
+        return <header>header</header>
     }
 }

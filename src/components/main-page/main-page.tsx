@@ -1,9 +1,18 @@
 import * as React from "react";
+import { Switch, Route } from "react-router-dom";
+import HomePage from "../home-page";
+import MyAccount from "../my-account";
 
 export default class MainPage extends React.Component {
     render() {
         return <main>
-            <div className="main-page-container">There is will be content of the main page</div>
+            <Switch>
+                <Route exact path='/homePage' component={HomePage}/>
+                <Route exact path='/myAccount' component={MyAccount}/>         
+            </Switch>
         </main>
     }
+    /*
+    <Route path='/roster' component={Roster}/>
+    <Route path='/schedule' component={Schedule}/>*/
 }
