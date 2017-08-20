@@ -1,22 +1,28 @@
 import * as React from "react";
 import { Button, Image } from 'react-bootstrap';
+import { Link, Route } from "react-router-dom";
+import MyAccount from "../menu-item";
 
 interface IMenuItem {
     pictureUrl: string,
     buttonText: string,
-    urlPage?: string
+    urlPage: string
 }
+
 
 export default class MenuItem extends React.Component<IMenuItem> {
     render() {
-        const { pictureUrl, buttonText } = this.props;
-
+        const { pictureUrl, buttonText, urlPage } = this.props;
+        
         return (
             <div className = "container" >
                 <Image className = "picture" src = { pictureUrl } rounded />
-                <Button className = "button" bsStyle = "success" width = "100%">
+
+                <Link to={urlPage}>
+                <Button href={urlPage} className = "button" bsStyle = "success" width = "100%">
                     { buttonText }
                 </Button>
+               </Link>
             </div>
         )
     }

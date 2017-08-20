@@ -2,6 +2,7 @@ import * as React from "react";
 import { Switch, Route } from "react-router-dom";
 import MainPage from "../main-page";
 import HomePage from "../home-page";
+import MyAccount from "../my-account";
 
 import RegistrationPage from "../registration-page/main";
 import SignIn from "../registration-page/sign-in";
@@ -18,7 +19,8 @@ export default class RouterPage extends React.Component {
                     <Route exact path='/signIn' component={SignIn}/>
                     <Route exact path='/signUp' component={SignUp}/>
                     
-                    <Route exact path='/homePage' component={HomePage}/>          
+                    <Route exact path='/homePage' component={HomePage}/>
+                    <Route exact path='/myAccount' component={MyAccount}/>           
                 </Switch>
         </main>
     }
