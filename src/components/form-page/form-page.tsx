@@ -1,17 +1,8 @@
 import * as React from "react";
-import  * as ReactDOM from "react-dom";
 import { Button } from 'react-bootstrap';
 
 export default class FormPage extends React.Component {
 
-    componentDidMount() {
-        alert();
-        let name = ReactDOM.findDOMNode(this.refs.name);
-        // name.focus();
-    }
-    onBtnClickHandler(e: any){
-        e.preventDefault();
-    }
     render() {
         return <div className="form-container">
             <h1>My account</h1>
@@ -26,6 +17,7 @@ export default class FormPage extends React.Component {
                         defaultValue='asdasdasd'
                         placeholder=''
                         ref='name'
+                        autoFocus={ true }
                     />
                 </label>
                 <label className="input-block">
@@ -92,7 +84,6 @@ export default class FormPage extends React.Component {
                 </label>
 
                 <Button className="add-btn" bsStyle="primary" bsSize="large" block
-                        onClick={this.onBtnClickHandler.bind(this)}
                         ref='alert_button'>
                     Save</Button>
             </form>
