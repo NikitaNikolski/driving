@@ -4,6 +4,9 @@ import MainPage from "../main-page";
 import HomePage from "../home-page";
 import FormPage from "../form-page";
 
+import MyAccount from "../my-account";
+
+
 export default class RouterPage extends React.Component {
     render() {
         return <main>
@@ -12,7 +15,10 @@ export default class RouterPage extends React.Component {
                     <Route exact path='/signIn' component={MainPage}/>
                     <Route exact path='/signUp' component={MainPage}/>
                     <Route exact path='/homePage' component={HomePage}/>
+
                     <Route exact path='/formPage' component={FormPage}/>
+
+                    <Route exact path='/myAccount' component={MyAccount}/>           
                 </Switch>
         </main>
     }
