@@ -1,0 +1,114 @@
+.add-btn {
+    color: #FFF;
+    text-transform: uppercase;
+    background: #007DDC;
+    border-radius: 0;
+    font-size: 1.8em;
+    padding: 0.5em 1em; margin-top: 45px;
+}
+.add-btn:disabled {
+    background: #CCC;
+    color: #999;
+}
+.form-container {
+    width: 100%;
+    padding: 0 20px;
+    font: inherit;
+    font-family: 'Open Sans', arial;
+    color: #6d6e70;
+}
+.driving-form{
+    display: none;
+}
+.only-mobile-version{
+    display: block;
+}
+    .form-container h1{
+        text-align: center;
+        color: #0e78b6;
+        font-family: 'Open Sans Light';
+        font-size: 1.6em;
+        line-height: 1.2em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+    h2.sub-title {
+        color: #0e78b6;
+        margin: 1.5em 0 1em 0; margin-top: 1em;
+        padding-top: 1em;
+        font-family: 'Open Sans Light'; font-size: 1.3em;
+        line-height: 1.2em;
+    }
+    .input-block {
+        display: block;
+        margin: 0;
+    }
+        ._label {
+            display: inline-block;
+            vertical-align: top;
+            font-weight: bold;
+            color: #0e78b6;
+            padding: .2em 0;
+        }
+        ._input {
+            padding: 0.2em;
+            font-size: 100%;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            border: 1px solid #e8e8e8;
+            background: #f8f8f8;
+        }
+        ._field {
+            padding: 0.2em;
+            font-size: 100%;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            border: 1px solid #e8e8e8;
+            background: #f8f8f8;
+        }
+        .input-block .checkbox {
+            background: #fff;
+            color: #6fad55;
+        }
+        ._checkbox{
+            background: #fff;
+            color: #6fad55;
+            margin-right: unset !important;
+            border: 2px solid #e8e8e8;
+            cursor: pointer;
+            display: inline-block;
+            height: 1em;
+            line-height: 1em;
+            position: relative;
+            vertical-align: middle;
+            width: 1em;
+        }
+        [type=checkbox]:checked + ._checkbox:after {
+            content: '✔';
+            position: absolute;
+            height: 1em;
+            width: 1em;
+            left: 0.2em;
+            top: -0.2em;
+            font-weight: normal;
+        }
+@media screen and (max-width: 600px){
+    .driving-form{
+        display: block;
+    }
+    .only-mobile-version{
+        display: none;
+    }
+        .input-block ._label, ._field {
+            width: 100% !important;
+        }
+        ._app-hidden {
+            display: none !important;
+        }
+}
