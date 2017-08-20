@@ -116,7 +116,7 @@ export default class HomePage extends React.Component {
                     <MenuItem pictureUrl="/src/images/my-drivingschool.svg" buttonText="My driving school"></MenuItem>
                 </Col>
                 <Col xs={6} md={4}>
-                    <MenuItem pictureUrl="/src/images/document-edit-flat.png" buttonText="My account"></MenuItem>
+                    <MenuItem pictureUrl="/src/images/document-edit-flat.png" buttonText="My account" urlPage="myAccount"></MenuItem>
                 </Col>
                 <Col xs={6} md={4}>
                     <MenuItem pictureUrl="/src/images/my-invoices.svg" buttonText="My Invoicies"></MenuItem>

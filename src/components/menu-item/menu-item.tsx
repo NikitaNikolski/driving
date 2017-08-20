@@ -16,12 +16,12 @@ const myAccount = () => (
 
 export default class MenuItem extends React.Component<IMenuItem> {
     render() {
-        const { pictureUrl, buttonText } = this.props;
+        const { pictureUrl, buttonText,urlPage } = this.props;
 
         return (
             <div className = "container" >
                 <Image className = "picture" src = { pictureUrl } rounded />
-                <Button className = "button" bsStyle = "success" width = "100%">
+                <Button href={ urlPage } className = "button" bsStyle = "success" width = "100%">
                     { buttonText }
                 </Button>
             </div>
