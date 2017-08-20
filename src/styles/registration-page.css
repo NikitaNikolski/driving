@@ -1,3 +1,49 @@
 .reg-theme {
     color : #0e78b6;
 }
+
+.reg-button{
+    width: 96%;
+    background: #70ae43;
+    color:white;
+    border: 0;
+    padding: 2%;
+    margin: 2%;
+}
+
+.reg-image {
+    width: 100%;
+    padding: 10%;
+}
+
+.reg-title {
+  margin: 5%;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reg-title123 {
+  align-self: center;
+}
+
+.reg-text {
+    margin: 5%;
+    color: rgb(0, 0, 0);
+}
+
+.reg-fieldset {
+    width: 96%;
+    background: rgb(250, 255, 189);
+    color: rgb(0, 0, 0);
+    border: 3px;
+    padding: 2%;
+    margin: 2%;
+
+    height: 30px;
+}
+
+.reg-fields {
+    margin: 5%;
+}

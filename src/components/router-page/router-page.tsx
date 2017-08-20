@@ -15,7 +15,7 @@ export default class RouterPage extends React.Component {
                     <Route exact path='/' component={ MainPage }/>
                     
                     <Route exact path='/registrationPage' component={RegistrationPage}/>
-                    <Route exact path='/signIn' component={RegistrationPage}/>
+                    <Route exact path='/signIn' component={SignIn}/>
                     <Route exact path='/signUp' component={SignUp}/>
                     
                     <Route exact path='/homePage' component={HomePage}/>          
