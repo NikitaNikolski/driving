@@ -2,6 +2,7 @@ import * as React from "react";
 import { Switch, Route } from "react-router-dom";
 import MainPage from "../main-page";
 import HomePage from "../home-page";
+import FormPage from "../form-page";
 
 export default class RouterPage extends React.Component {
     render() {
@@ -10,7 +11,8 @@ export default class RouterPage extends React.Component {
                     <Route exact path='/' component={ MainPage }/>
                     <Route exact path='/signIn' component={MainPage}/>
                     <Route exact path='/signUp' component={MainPage}/>
-                    <Route exact path='/homePage' component={HomePage}/>          
+                    <Route exact path='/homePage' component={HomePage}/>
+                    <Route exact path='/formPage' component={FormPage}/>
                 </Switch>
         </main>
     }
