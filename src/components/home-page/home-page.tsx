@@ -1,8 +1,6 @@
 import * as React from "react";
 import MenuItem from "../menu-item";
-import { Grid } from "react-Bootstrap";
-import { Col } from "react-Bootstrap";
-import { Row } from "react-Bootstrap";
+import { Grid, Col, Row } from "react-Bootstrap";
   /*  const temp = <div className="news">
                 <Col xs={6} md={4}>
                <Thumbnail src="/src/images/my-invoices.svg" alt="242x200">
@@ -59,6 +57,39 @@ class Item {
     }
 
 }*/
+/*
+<Grid>
+<Row>
+    
+<Col xs={6} md={4} >
+    <MenuItem pictureUrl="/src/images/person-10.svg" buttonText="Rewiews"></MenuItem>
+</Col>
+
+<Col xs={6} md={4}>
+    <MenuItem pictureUrl="/src/images/shopping-cart.svg" buttonText="Upgrade"></MenuItem>
+</Col>
+<Col xs={6} md={4}>
+    <MenuItem pictureUrl="/src/images/person-9.svg" buttonText="Book theory"></MenuItem>
+</Col>
+<Col xs={6} md={4}>
+    <MenuItem pictureUrl="/src/images/snelslagen-korting.png" buttonText="Discount code"></MenuItem>
+</Col>
+<Col xs={6} md={4}>
+    <MenuItem pictureUrl="/src/images/my-drivingschool.svg" buttonText="My driving school"></MenuItem>
+</Col>
+<Col xs={6} md={4}>
+    <MenuItem pictureUrl="/src/images/document-edit-flat.png" buttonText="My account"></MenuItem>
+</Col>
+<Col xs={6} md={4}>
+    <MenuItem pictureUrl="/src/images/my-invoices.svg" buttonText="My Invoicies"></MenuItem>
+</Col>
+<Col xs={6} md={4}>
+    <MenuItem pictureUrl="/src/images/power-button-sign.svg" buttonText="Log out"></MenuItem>
+</Col>
+
+
+</Row>
+</Grid>*/
 
 export default class HomePage extends React.Component {
 

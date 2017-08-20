@@ -24,8 +24,6 @@ export default class MenuItem extends React.Component<IMenuItem> {
                 <Button className = "button" bsStyle = "success" width = "100%">
                     { buttonText }
                 </Button>
-                <Link to='/myAccount'>Roster</Link>
-                <Route path="/my-account" component={myAccount}/>
             </div>
         )
     }

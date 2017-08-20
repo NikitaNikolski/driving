@@ -5,14 +5,6 @@ import MyAccount from "../my-account";
 
 export default class MainPage extends React.Component {
     render() {
-        return <main>
-            <Switch>
-                <Route exact path='/homePage' component={HomePage}/>
-                <Route exact path='/myAccount' component={MyAccount}/>         
-            </Switch>
-        </main>
+        return <div className="main-page-container">There is will be content of the main page</div>;
     }
-    /*
-    <Route path='/roster' component={Roster}/>
-    <Route path='/schedule' component={Schedule}/>*/
 }
