@@ -11,9 +11,6 @@ export default class FormPage extends React.Component {
     onBtnClickHandler(e: any){
         e.preventDefault();
     }
-    onCheckRuleClick(e: any){
-
-    }
     render() {
         return <div className="form-container">
             <h1>Mijn account</h1>
