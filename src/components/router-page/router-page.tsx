@@ -5,6 +5,7 @@ import HomePage from "../home-page";
 import FormPage from "../form-page";
 
 import MyAccount from "../my-account";
+import DrivingSchoolsPage from "../driving-schools-page/driving-schools-page";
 
 
 import RegistrationPage from "../registration-page/main";
@@ -24,9 +25,11 @@ export default class RouterPage extends React.Component {
                     
                     <Route exact path='/homePage' component={HomePage}/>
 
+                    <Route exact path='/myAccount' component={MyAccount}/>
+                    <Route exact path='/drivingSchoolPage' component={DrivingSchoolsPage}/>
+
                     <Route exact path='/formPage' component={FormPage}/>
 
-                    <Route exact path='/myAccount' component={MyAccount}/>           
                 </Switch>
         </main>
     }
